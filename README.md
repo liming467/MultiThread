@@ -1,5 +1,5 @@
 # MultiThread
-A demo to present  two kinds of multi-thread method
+A demo to present  two kinds of multi-thread methods
 
 # 进程
 
