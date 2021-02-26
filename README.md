@@ -29,7 +29,10 @@ A demo to present  two kinds of multi-thread methods
 # 1、重写QThread继承类的run()函数
 
 自己写一个类继承QThread，并重写其run()函数。而对于使用Qthread创建的进程而言，run()函数则是新线程的入口，run()函数退出，意味着线程的终止。
-注意这种方法需要使用start()启动子线程。
+注意这种方法需要使用start()启动子线程（自动调用run()函数）。
+ 
+ 提示：QThread只有run函数是在新线程里的!!!
+
 
 # 2、使用moveToThread()函数将QObject继承类放到一个新线程
 
